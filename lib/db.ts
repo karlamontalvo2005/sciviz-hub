@@ -2,7 +2,7 @@ import mysql from 'mysql2/promise';
 
 export const db = mysql.createPool({
   host: "gateway01.us-east-1.prod.aws.tidbcloud.com",
-  user: "iXqaGH5LjokAQBN.root",
+  user: "iXqaGH5LJokAQBN.root",
   password: "yKXU8NU0cRibwSWq",
   database: "test",
   port: 4000,
